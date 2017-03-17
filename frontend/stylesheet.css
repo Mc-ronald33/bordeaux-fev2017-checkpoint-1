@@ -26,6 +26,39 @@
 2. Navbar
 ==================================================
 \************************************************/
+.logo {
+  margin-top: -13px;
+  border-radius: 50px;
+}
+
+.navbar-fixed-top,  {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  padding-bottom: 15px;
+}
+
+.navbar {
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+
+}
+
+.navbar-default {
+  background-color: white;
+  border-color:grey;
+}
+
+.btn-outline-success {
+  float: right;
+  color: black;
+  text-decoration: none;
+  margin-top: 8px;
+
+}
+
 
 
 /************************************************\
@@ -38,11 +71,11 @@
 }
 
 .kaamelott-banner.jumbotron {
-  background-image: url('/img/kaamelott-banner.jpg');
-  background-position: top center;
+  background-image: url('img/kaamelott-banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  padding-top: -30px;
 }
 
 p.source {
@@ -110,3 +143,10 @@ blockquote {
 4. Footer
 ==================================================
 \************************************************/
+.social{
+  color: grey;
+}
+
+footer{
+   text-align: center;
+}
